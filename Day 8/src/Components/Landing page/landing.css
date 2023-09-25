@@ -1,0 +1,109 @@
+.topland{
+    width:90vw;
+    height:70vh;
+    border: 2px solid black;
+    margin-top: 8%;
+    margin-left: 4%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    font-size :22px;
+    font-weight: bold;
+}
+.toplandtext{
+    margin-left:30px;
+    margin-top:3%;
+    /* border:2px solid gray; */
+    width:40vw;
+}
+.toplandimg{
+    margin-left: 50%;
+    margin-top:-20%;
+    transition: transform 0.3s ease;
+}
+.toplandimg:hover{
+    transform: scale(1.1);
+}
+.toplandbut:hover{
+    transform: scale(1.02);
+}
+.toplandbut{
+    margin-left:15%;
+    margin-top: 1%;
+    transition: transform 0.3s ease;
+}
+.toptext{
+    width:30vw;
+    /* border:2px solid gray; */
+    margin-left: 20px;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+}
+.landrow{
+    margin-top: 40px;
+    margin-left:25%;
+    width:80vw;
+    height:20vh;
+    /* border:2px solid black; */
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+}
+.rowtext{
+    
+    margin-left: 70px;
+    margin-top:30px;
+    font-weight: bolder;
+    border:2px solid black;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: transform 0.3s ease;
+}
+.rowtext:hover{
+    transform: scale(1.1);
+}
+.rowico{
+    margin-left:60px;
+    margin-top: 10px;
+}
+.textofsoft{
+    border:2px solid black;
+    width:80vw;
+    height:60vh;
+    margin-left:12%;
+    margin-top:5%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-size :22px;
+    font-weight: bold;
+}
+.downimage{
+    margin-left:45%;
+    margin-top:-10%;
+    transition: transform 0.3s ease;
+}
+.downimage:hover{
+    transform: scale(1.1);
+}
+.downtext{
+    margin-top:-20%;
+    margin-left:30px;
+}
+.landdownbut{
+    margin-left:10%;
+    margin-top:3%;
+    transition: transform 0.3s ease;
+}
+.landdownbut:hover{
+    transform: scale(1.02);
+}
+.landend{
+    border:2px solid black;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:150px 150px 150px 150px;
+    padding-left: 350px;
+}
+.endtext:hover{
+    color:blue;
+}
