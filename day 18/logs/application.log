@@ -1,0 +1,76 @@
+2023-10-12T09:20:13.732+05:30  INFO 11340 --- [restartedMain] c.p.t.taxcalculatorApplication           : Starting taxcalculatorApplication using Java 17.0.7 with PID 11340 (C:\Users\manga\Desktop\Tax calculator\target\classes started by manga in C:\Users\manga\Desktop\Tax calculator)
+2023-10-12T09:20:13.738+05:30  INFO 11340 --- [restartedMain] c.p.t.taxcalculatorApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-12T09:20:13.809+05:30  INFO 11340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-12T09:20:13.810+05:30  INFO 11340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-12T09:20:15.194+05:30  INFO 11340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-12T09:20:15.269+05:30  INFO 11340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2023-10-12T09:20:16.096+05:30  INFO 11340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-12T09:20:16.110+05:30  INFO 11340 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-12T09:20:16.110+05:30  INFO 11340 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12T09:20:16.207+05:30  INFO 11340 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-12T09:20:16.207+05:30  INFO 11340 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2396 ms
+2023-10-12T09:20:16.471+05:30  INFO 11340 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-12T09:20:16.579+05:30  INFO 11340 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-12T09:20:16.583+05:30  INFO 11340 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-12T09:20:16.805+05:30  INFO 11340 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-12T09:20:16.992+05:30  INFO 11340 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-12T09:20:17.022+05:30  INFO 11340 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-12T09:20:17.528+05:30  INFO 11340 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73872128
+2023-10-12T09:20:17.531+05:30  INFO 11340 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-12T09:20:17.639+05:30  WARN 11340 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-12T09:20:17.931+05:30  INFO 11340 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-12T09:20:18.677+05:30  INFO 11340 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-12T09:20:18.815+05:30  INFO 11340 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-12T09:20:19.541+05:30  WARN 11340 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-12T09:20:20.138+05:30  INFO 11340 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-10-12T09:20:20.294+05:30  INFO 11340 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3821fab7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@293a594c, org.springframework.security.web.context.SecurityContextHolderFilter@e7f859a, org.springframework.security.web.header.HeaderWriterFilter@2bd66983, org.springframework.web.filter.CorsFilter@6525a99b, org.springframework.security.web.authentication.logout.LogoutFilter@4081f7d9, com.prabha.taxcalculator.config.JwtAuthenticationFilter@66fe5bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@626755ec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4aa44679, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@235c269, org.springframework.security.web.session.SessionManagementFilter@5d6f1d28, org.springframework.security.web.access.ExceptionTranslationFilter@7679d283, org.springframework.security.web.access.intercept.AuthorizationFilter@50382651]
+2023-10-12T09:20:20.816+05:30  INFO 11340 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-12T09:20:20.914+05:30  INFO 11340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-12T09:20:20.931+05:30  INFO 11340 --- [restartedMain] c.p.t.taxcalculatorApplication           : Started taxcalculatorApplication in 7.656 seconds (process running for 8.632)
+2023-10-12T09:20:22.174+05:30  INFO 11340 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12T09:20:22.174+05:30  INFO 11340 --- [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-12T09:20:22.177+05:30  INFO 11340 --- [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-12T09:26:58.415+05:30 DEBUG 11340 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /auth/postproduct
+2023-10-12T09:26:58.443+05:30 DEBUG 11340 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:26:58.463+05:30 DEBUG 11340 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /auth/postproduct
+2023-10-12T09:27:59.774+05:30 DEBUG 11340 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/signup
+2023-10-12T09:27:59.790+05:30 DEBUG 11340 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /auth/signup
+2023-10-12T09:27:59.790+05:30 DEBUG 11340 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:27:59.790+05:30 DEBUG 11340 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /auth/signup
+2023-10-12T09:28:11.527+05:30 DEBUG 11340 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-12T09:28:11.532+05:30 DEBUG 11340 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-12T09:28:11.534+05:30 DEBUG 11340 --- [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:28:11.535+05:30 DEBUG 11340 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-12T09:28:11.761+05:30 DEBUG 11340 --- [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-12T09:28:54.694+05:30 DEBUG 11340 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /auth/postproduct
+2023-10-12T09:28:54.695+05:30 DEBUG 11340 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:28:54.696+05:30 DEBUG 11340 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /auth/postproduct
+2023-10-12T09:29:32.600+05:30 DEBUG 11340 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PUT /auth/updateproduct
+2023-10-12T09:29:32.602+05:30 DEBUG 11340 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:29:32.608+05:30 DEBUG 11340 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured PUT /auth/updateproduct
+2023-10-12T09:29:32.620+05:30 DEBUG 11340 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PUT /error
+2023-10-12T09:29:32.625+05:30 DEBUG 11340 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:29:32.627+05:30 DEBUG 11340 --- [http-nio-8080-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-12T09:29:40.675+05:30 DEBUG 11340 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing PUT /auth/update
+2023-10-12T09:29:40.676+05:30 DEBUG 11340 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:29:40.677+05:30 DEBUG 11340 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured PUT /auth/update
+2023-10-12T09:29:40.682+05:30 DEBUG 11340 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing PUT /error
+2023-10-12T09:29:40.685+05:30 DEBUG 11340 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:29:40.686+05:30 DEBUG 11340 --- [http-nio-8080-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-12T09:29:56.512+05:30 DEBUG 11340 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing PUT /auth/update/
+2023-10-12T09:29:56.513+05:30 DEBUG 11340 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:29:56.515+05:30 DEBUG 11340 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured PUT /auth/update/
+2023-10-12T09:29:56.520+05:30 DEBUG 11340 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing PUT /error
+2023-10-12T09:29:56.522+05:30 DEBUG 11340 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:29:56.523+05:30 DEBUG 11340 --- [http-nio-8080-exec-3] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-12T09:30:49.015+05:30 DEBUG 11340 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing PUT /auth/update/1
+2023-10-12T09:30:49.019+05:30 DEBUG 11340 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:30:49.021+05:30 DEBUG 11340 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured PUT /auth/update/1
+2023-10-12T09:31:09.396+05:30 DEBUG 11340 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PUT /auth/update/1
+2023-10-12T09:31:09.398+05:30 DEBUG 11340 --- [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:31:09.400+05:30 DEBUG 11340 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured PUT /auth/update/1
+2023-10-12T09:33:51.128+05:30 DEBUG 11340 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PUT /auth/update/1
+2023-10-12T09:33:51.129+05:30 DEBUG 11340 --- [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-12T09:33:51.129+05:30 DEBUG 11340 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured PUT /auth/update/1
+2023-10-12T10:04:17.597+05:30  WARN 11340 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m59s373ms758µs300ns).
+2023-10-12T10:50:59.761+05:30  WARN 11340 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m11s846ms317µs700ns).
